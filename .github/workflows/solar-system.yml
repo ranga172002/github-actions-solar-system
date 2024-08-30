@@ -63,7 +63,7 @@ jobs:
          - code-coverage
          - unit-testing
       steps:
-        - uses: actions/chechout@4
+        - uses: actions/checkout@4
         - uses: docker/login-action@v2.2.0
           with:
             registry: gchr.io
